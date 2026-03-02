@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MainWindowTitle" xml:space="preserve">
+    <value>Sajam Knjiga</value>
+  </data>
+  <data name="MenuFile" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="MenuNew" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="MenuSave" xml:space="preserve">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="MenuOpen" xml:space="preserve">
+    <value>Otvori</value>
+  </data>
+  <data name="MenuOpenVisitors" xml:space="preserve">
+    <value>Posetioci</value>
+  </data>
+  <data name="MenuOpenBooks" xml:space="preserve">
+    <value>Knjige</value>
+  </data>
+  <data name="MenuOpenPublishers" xml:space="preserve">
+    <value>Izdavači</value>
+  </data>
+  <data name="MenuOpenAuthors" xml:space="preserve">
+    <value>Autori</value>
+  </data>
+  <data name="MenuClose" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="MenuLanguage" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="MenuEnglish" xml:space="preserve">
+    <value>Engleski</value>
+  </data>
+  <data name="MenuSerbian" xml:space="preserve">
+    <value>Srpski</value>
+  </data>
+  <data name="MenuEdit" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="MenuEditModify" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="MenuEditDelete" xml:space="preserve">
+    <value>Obriši</value>
+  </data>
+  <data name="MenuHelp" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="MenuHelpAbout" xml:space="preserve">
+    <value>O aplikaciji</value>
+  </data>
+  <data name="BtnNewTooltip" xml:space="preserve">
+    <value>Kreiraj novo</value>
+  </data>
+  <data name="BtnEditTooltip" xml:space="preserve">
+    <value>Uredi odabrano</value>
+  </data>
+  <data name="BtnDeleteTooltip" xml:space="preserve">
+    <value>Obriši odabrano</value>
+  </data>
+  <data name="SearchBoxTooltip" xml:space="preserve">
+    <value>Pretraži...</value>
+  </data>
+  <data name="BtnSearchTooltip" xml:space="preserve">
+    <value>Pretraži</value>
+  </data>
+  <data name="TabVisitors" xml:space="preserve">
+    <value>Posetioci</value>
+  </data>
+  <data name="TabBooks" xml:space="preserve">
+    <value>Knjige</value>
+  </data>
+  <data name="TabAuthors" xml:space="preserve">
+    <value>Autori</value>
+  </data>
+  <data name="TabPublishers" xml:space="preserve">
+    <value>Izdavači</value>
+  </data>
+  <data name="GridVisitors_MembershipCardNumber" xml:space="preserve">
+    <value>Broj članske kartice</value>
+  </data>
+  <data name="GridVisitors_Surname" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="GridVisitors_Address" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="GridVisitors_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="GridBooks_Name" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="GridBooks_Price" xml:space="preserve">
+    <value>Cena</value>
+  </data>
+  <data name="GridBooks_Genre" xml:space="preserve">
+    <value>Žanr</value>
+  </data>
+  <data name="GridBooks_ISBN" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="GridBooks_YearOfRelease" xml:space="preserve">
+    <value>Godina izdanja</value>
+  </data>
+  <data name="GridAuthors_Name" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="GridAuthors_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="GridAuthors_Surname" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="GridAuthors_DateOfBirth" xml:space="preserve">
+    <value>Datum rođenja</value>
+  </data>
+  <data name="GridAuthors_IdCardNumber" xml:space="preserve">
+    <value>Broj lične karte</value>
+  </data>
+  <data name="GridPublishers_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Publishers_Name" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="GridPublishers" xml:space="preserve">
+    <value>Direktor</value>
+  </data>
+  <data name="StatusBar_Main" xml:space="preserve">
+    <value>Aplikacija Sajam Knjiga</value>
+  </data>
+  <data name="StatusBar_Time" xml:space="preserve">
+    <value>Vreme</value>
+  </data>
+  <data name="StatusBar_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="GridVisitors_Name" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="MenuSetPublisherHead" xml:space="preserve">
+    <value>Postavi direktora izdavača</value>
+  </data>
+  <data name="MenuCompareVisitors" xml:space="preserve">
+    <value>Poredi posetioce po knjigama</value>
+  </data>
+  <data name="MenuPublisherBooks" xml:space="preserve">
+    <value>Prikaži knjige izdavača</value>
+  </data>
+  <data name="PublisherBooks_WindowDefaultTitle" xml:space="preserve">
+    <value>Knjige izdavača</value>
+  </data>
+  <data name="PublisherBooks_WindowTitle" xml:space="preserve">
+    <value>Knjige od izdavača '{0}'</value>
+  </data>
+  <data name="PublisherBooks_SearchLabel" xml:space="preserve">
+    <value>Pretraga:</value>
+  </data>
+  <data name="PublisherBooks_NoBooksMessage" xml:space="preserve">
+    <value>Nema knjiga za izdavača '{0}'.</value>
+  </data>
+  <data name="GridPublishers_Code" xml:space="preserve">
+    <value>Kod</value>
+  </data>
+  <data name="GridPublishers_HeadId" xml:space="preserve">
+    <value>ID direktora</value>
+  </data>
+  <data name="Form_Name" xml:space="preserve">
+    <value>Ime:</value>
+  </data>
+  <data name="Form_Surname" xml:space="preserve">
+    <value>Prezime:</value>
+  </data>
+  <data name="Form_DateOfBirth" xml:space="preserve">
+    <value>Datum rođenja:</value>
+  </data>
+  <data name="Form_Address" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="Form_Street" xml:space="preserve">
+    <value>Ulica:</value>
+  </data>
+  <data name="Form_Number" xml:space="preserve">
+    <value>Broj:</value>
+  </data>
+  <data name="Form_City" xml:space="preserve">
+    <value>Grad:</value>
+  </data>
+  <data name="Form_Country" xml:space="preserve">
+    <value>Država:</value>
+  </data>
+  <data name="Form_Phone" xml:space="preserve">
+    <value>Telefon:</value>
+  </data>
+  <data name="Form_Email" xml:space="preserve">
+    <value>E-pošta:</value>
+  </data>
+  <data name="Form_Status" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Form_IDCardNumber" xml:space="preserve">
+    <value>Broj lične karte:</value>
+  </data>
+  <data name="Form_YearsOfExperience" xml:space="preserve">
+    <value>Godine iskustva:</value>
+  </data>
+  <data name="Form_ISBN" xml:space="preserve">
+    <value>ISBN:</value>
+  </data>
+  <data name="Form_Genre" xml:space="preserve">
+    <value>Žanr:</value>
+  </data>
+  <data name="Form_YearOfRelease" xml:space="preserve">
+    <value>Godina izdanja:</value>
+  </data>
+  <data name="Form_Price" xml:space="preserve">
+    <value>Cena:</value>
+  </data>
+  <data name="Form_NumberOfPages" xml:space="preserve">
+    <value>Broj stranica:</value>
+  </data>
+  <data name="Form_Author" xml:space="preserve">
+    <value>Autor:</value>
+  </data>
+  <data name="Form_Code" xml:space="preserve">
+    <value>Kod:</value>
+  </data>
+  <data name="Form_MembershipCardNumber" xml:space="preserve">
+    <value>Broj članske kartice:</value>
+  </data>
+  <data name="FormGrid_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="FormGrid_Rating" xml:space="preserve">
+    <value>Ocena</value>
+  </data>
+  <data name="FormGrid_Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="FormGrid_Publisher" xml:space="preserve">
+    <value>Izdavač</value>
+  </data>
+  <data name="FormBtn_Confirm" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="FormBtn_Save" xml:space="preserve">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="FormBtn_Cancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="FormBtn_AddBook" xml:space="preserve">
+    <value>Dodaj knjigu</value>
+  </data>
+  <data name="FormBtn_RemoveBook" xml:space="preserve">
+    <value>Ukloni knjigu</value>
+  </data>
+  <data name="FormBtn_ShowVisitors" xml:space="preserve">
+    <value>Prikaži posetioce</value>
+  </data>
+  <data name="FormBtn_CancelPurchase" xml:space="preserve">
+    <value>Otkaži kupovinu</value>
+  </data>
+  <data name="FormBtn_Purchase" xml:space="preserve">
+    <value>Kupi</value>
+  </data>
+  <data name="FormBtn_ShowAuthors" xml:space="preserve">
+    <value>Prikaži autore</value>
+  </data>
+  <data name="FormBtn_Delete" xml:space="preserve">
+    <value>Obriši</value>
+  </data>
+  <data name="FormTab_Information" xml:space="preserve">
+    <value>Informacije</value>
+  </data>
+  <data name="FormTab_Purchased" xml:space="preserve">
+    <value>Kupljeno</value>
+  </data>
+  <data name="FormTab_Wishlist" xml:space="preserve">
+    <value>Lista želja</value>
+  </data>
+  <data name="FormTitle_NewAuthor" xml:space="preserve">
+    <value>Novi autor</value>
+  </data>
+  <data name="FormTitle_UpdateAuthor" xml:space="preserve">
+    <value>Uredi autora</value>
+  </data>
+  <data name="FormTitle_NewBook" xml:space="preserve">
+    <value>Nova knjiga</value>
+  </data>
+  <data name="FormTitle_UpdateBook" xml:space="preserve">
+    <value>Uredi knjigu</value>
+  </data>
+  <data name="FormTitle_NewPublisher" xml:space="preserve">
+    <value>Novi izdavač</value>
+  </data>
+  <data name="FormTitle_EditPublisher" xml:space="preserve">
+    <value>Uredi izdavača</value>
+  </data>
+  <data name="FormTitle_NewVisitor" xml:space="preserve">
+    <value>Novi posetilac</value>
+  </data>
+  <data name="FormTitle_UpdateVisitor" xml:space="preserve">
+    <value>Uredi posetioce</value>
+  </data>
+  <data name="FormTitle_AddWishlistBook" xml:space="preserve">
+    <value>Dodaj na listu želja</value>
+  </data>
+  <data name="Msg_SelectVisitor" xml:space="preserve">
+    <value>Molimo odaberite posetioce.</value>
+  </data>
+  <data name="Msg_SelectBook" xml:space="preserve">
+    <value>Molimo odaberite knjigu.</value>
+  </data>
+  <data name="Msg_SelectAuthor" xml:space="preserve">
+    <value>Molimo odaberite autora.</value>
+  </data>
+  <data name="Msg_SelectPublisher" xml:space="preserve">
+    <value>Molimo odaberite izdavača.</value>
+  </data>
+  <data name="Msg_ConfirmDelete" xml:space="preserve">
+    <value>Da li ste sigurni da želite obrisati?</value>
+  </data>
+  <data name="Msg_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Potvrda</value>
+  </data>
+  <data name="Msg_StateSaved" xml:space="preserve">
+    <value>Trenutno stanje je sačuvano.</value>
+  </data>
+  <data name="Msg_SavedTitle" xml:space="preserve">
+    <value>Sačuvano</value>
+  </data>
+  <data name="VisitorAuthors_WindowDefaultTitle" xml:space="preserve">
+    <value>Autori sa liste želja posetioca</value>
+  </data>
+  <data name="VisitorAuthors_WindowTitleFormat" xml:space="preserve">
+    <value>Autori za posetioca '{0}'</value>
+  </data>
+  <data name="AuthorVisitors_WindowDefaultTitle" xml:space="preserve">
+    <value>Posetioci sa knjigama autora na listi želja</value>
+  </data>
+  <data name="AuthorVisitors_WindowTitleFormat" xml:space="preserve">
+    <value>Posetioci sa knjigama '{0}' na listi želja</value>
+  </data>
+  <data name="Label_Book1" xml:space="preserve">
+    <value>Knjiga 1:</value>
+  </data>
+  <data name="Label_Book2" xml:space="preserve">
+    <value>Knjiga 2:</value>
+  </data>
+  <data name="Btn_Compare" xml:space="preserve">
+    <value>Uporedi</value>
+  </data>
+  <data name="Tab_WishlistBoth" xml:space="preserve">
+    <value>Obe knjige na listi želja</value>
+  </data>
+  <data name="Tab_BoughtFirstOnly" xml:space="preserve">
+    <value>Kupljena samo Knjiga 1</value>
+  </data>
+  <data name="Msg_NoBooksAuthor" xml:space="preserve">
+    <value>Nema knjiga za ovog autora.</value>
+  </data>
+  <data name="Msg_VisitorNoWishlist" xml:space="preserve">
+    <value>Posetilac nema knjiga na listi želja.</value>
+  </data>
+  <data name="Msg_VisitorNotFound" xml:space="preserve">
+    <value>Posetilac nije pronađen.</value>
+  </data>
+  <data name="Msg_SelectBothBooks" xml:space="preserve">
+    <value>Molimo odaberite obe knjige.</value>
+  </data>
+  <data name="Msg_SelectDifferentBooks" xml:space="preserve">
+    <value>Odaberite dve različite knjige.</value>
+  </data>
+  <data name="Msg_InfoTitle" xml:space="preserve">
+    <value>Informacija</value>
+  </data>
+  <data name="PublisherHeads_WindowTitle" xml:space="preserve">
+    <value>Postavi direktora izdavača</value>
+  </data>
+  <data name="PublisherHeads_LabelPublishers" xml:space="preserve">
+    <value>Izdavači</value>
+  </data>
+  <data name="PublisherHeads_LabelAuthors" xml:space="preserve">
+    <value>Autori (min iskustva: 5 godina)</value>
+  </data>
+  <data name="PublisherHeads_BtnSetHead" xml:space="preserve">
+    <value>Postavi za direktora</value>
+  </data>
+  <data name="Msg_WishlistSelectBook" xml:space="preserve">
+    <value>Molimo odaberite bar jednu knjigu u tabeli.</value>
+  </data>
+  <data name="Msg_WishlistConfirmPurchase" xml:space="preserve">
+    <value>Da li želite kupiti {0} knjigu/e?</value>
+  </data>
+  <data name="Msg_WishlistConfirmTitle" xml:space="preserve">
+    <value>Potvrda kupovine</value>
+  </data>
+  <data name="Msg_SelectBookInTable" xml:space="preserve">
+    <value>Selektujte bar jednu knjigu u tabeli.</value>
+  </data>
+  <data name="Msg_ConfirmRemoveAuthorBooks" xml:space="preserve">
+    <value>Da li ste sigurni da želite da uklonite {0} knjiga od autora?</value>
+  </data>
+  <data name="Msg_NoAvailableBooksToAdd" xml:space="preserve">
+    <value>Nema dostupnih knjiga za dodavanje.</value>
+  </data>
+  <data name="Msg_SelectBookFromList" xml:space="preserve">
+    <value>Selektujte bar jednu knjigu iz liste.</value>
+  </data>
+  <data name="Msg_WishlistConfirmDelete" xml:space="preserve">
+    <value>Da li ste sigurni da želite da obrišete {0} knjiga sa liste želja?</value>
+  </data>
+  <data name="Msg_SelectPurchase" xml:space="preserve">
+    <value>Selektujte kupovinu u tabeli.</value>
+  </data>
+  <data name="Msg_ConfirmCancelPurchase" xml:space="preserve">
+    <value>Da li ste sigurni da želite da poništite kupovinu?</value>
+  </data>
+  <data name="Msg_NoAvailableWishlistBooks" xml:space="preserve">
+    <value>Nema dostupnih knjiga za dodavanje (sve su već kupljene ili su već na listi želja).</value>
+  </data>
+  <data name="Msg_SelectAuthorDropdown" xml:space="preserve">
+    <value>Molimo odaberite autora sa liste.</value>
+  </data>
+  <data name="Msg_ErrorTitle" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="Msg_SelectPublisherHeads" xml:space="preserve">
+    <value>Molimo odaberite izdavača.</value>
+  </data>
+  <data name="Msg_SelectAuthorHeads" xml:space="preserve">
+    <value>Molimo odaberite autora.</value>
+  </data>
+  <data name="Msg_ValidationTitle" xml:space="preserve">
+    <value>Validacija</value>
+  </data>
+  <data name="Msg_AuthorExperienceError" xml:space="preserve">
+    <value>Autor mora imati najmanje 5 godina iskustva. Odabrani autor ima {0} godina.</value>
+  </data>
+  <data name="Msg_ValidationErrorTitle" xml:space="preserve">
+    <value>Greška validacije</value>
+  </data>
+  <data name="Msg_PublisherHeadSetSuccess" xml:space="preserve">
+    <value>Autor '{0}' je postavljen za direktora '{1}'.</value>
+  </data>
+  <data name="Msg_SuccessTitle" xml:space="preserve">
+    <value>Uspeh</value>
+  </data>
+  <data name="Stat_AverageRating" xml:space="preserve">
+    <value>Prosečna ocena: {0:0.0}</value>
+  </data>
+  <data name="Stat_TotalSpent" xml:space="preserve">
+    <value>Potrošeno: {0:0} RSD</value>
+  </data>
+  <data name="Genre_Roman" xml:space="preserve">
+    <value>Roman</value>
+  </data>
+  <data name="Genre_Drama" xml:space="preserve">
+    <value>Drama</value>
+  </data>
+  <data name="Genre_Triler" xml:space="preserve">
+    <value>Triler</value>
+  </data>
+  <data name="Genre_NaucnaFantastika" xml:space="preserve">
+    <value>Naučna Fantastika</value>
+  </data>
+  <data name="Genre_Fikcija" xml:space="preserve">
+    <value>Fikcija</value>
+  </data>
+  <data name="Genre_Avantura" xml:space="preserve">
+    <value>Avantura</value>
+  </data>
+  <data name="Genre_Biografija" xml:space="preserve">
+    <value>Biografija</value>
+  </data>
+  <data name="Genre_Istorija" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="Genre_Poezija" xml:space="preserve">
+    <value>Poezija</value>
+  </data>
+  <data name="Genre_Romantika" xml:space="preserve">
+    <value>Romantika</value>
+  </data>
+  <data name="Genre_Kriminalistika" xml:space="preserve">
+    <value>Kriminalistika</value>
+  </data>
+  <data name="FormTitle_PurchaseBook" xml:space="preserve">
+    <value>Kupovina knjige</value>
+  </data>
+  <data name="FormTitle_ChooseAuthor" xml:space="preserve">
+    <value>Izaberi autora</value>
+  </data>
+  <data name="FormTitle_RemoveAuthorConfirm" xml:space="preserve">
+    <value>Ukloni autora</value>
+  </data>
+  <data name="Msg_RemoveAuthorConfirm" xml:space="preserve">
+    <value>Da li ste sigurni da želite da uklonite autora?</value>
+  </data>
+  <data name="FormGrid_BuyingDate" xml:space="preserve">
+    <value>Datum kupovine</value>
+  </data>
+  <data name="Msg_RatingRange" xml:space="preserve">
+    <value>Ocena mora biti broj od 1 do 5.</value>
+  </data>
+  <data name="Msg_BuyingDateRequired" xml:space="preserve">
+    <value>Datum kupovine je obavezan.</value>
+  </data>
+  <data name="PublisherAuthors_WindowTitleFormat" xml:space="preserve">
+    <value>Autori izdavača: {0}</value>
+  </data>
+  <data name="MenuPublisherAuthors" xml:space="preserve">
+    <value>Autori izdavača</value>
+  </data>
+  <data name="FormBtn_ConfirmRemoveAuthor" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+  <data name="FormBtn_ConfirmSelection" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+</root>

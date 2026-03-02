@@ -1,0 +1,34 @@
+﻿<Window x:Class="BookFair.WPF.Views.BookView.ChooseAuthorDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:properties="clr-namespace:BookFair.WPF.Properties"
+        Title="{x:Static properties:Resources.FormTitle_ChooseAuthor}"
+        Height="260" Width="320"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+
+    <DockPanel Margin="12">
+
+        <StackPanel DockPanel.Dock="Bottom"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,12,0,0">
+
+            <Button Content="{x:Static properties:Resources.FormBtn_Cancel}"
+                    Width="100"
+                    Margin="0,0,10,0"
+                    Click="Cancel_Click"/>
+
+            <Button x:Name="BtnConfirm"
+                    Content="{x:Static properties:Resources.FormBtn_Confirm}"
+                    Width="100"
+                    IsEnabled="False"
+                    Click="Confirm_Click"/>
+        </StackPanel>
+
+        <!-- VAŽNO: x:Name mora da bude AuthorsList, jer ga code-behind koristi -->
+        <ListBox x:Name="AuthorsList"
+                 DisplayMemberPath="DisplayName"
+                 SelectionChanged="AuthorsList_SelectionChanged"/>
+    </DockPanel>
+</Window>
